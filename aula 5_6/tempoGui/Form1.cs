@@ -16,12 +16,17 @@ namespace tempoGui {
         }
 
         private void btn_mostraHoras_Click(object sender, EventArgs e) {
-            Tempo t = new Tempo();
-            t.Hora = int.Parse(edt_h.Text);
-            t.Minuto = int.Parse(edt_m.Text);
-            t.Segundo = int.Parse(edt_s.Text);
+            try {
+                Tempo t = new Tempo();
+                t.Hora = int.Parse(edt_h.Text);
+                t.Minuto = int.Parse(edt_m.Text);
+                t.Segundo = int.Parse(edt_s.Text);
 
-            MessageBox.Show(t.ToString());
+                MessageBox.Show(t.ToString());
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
