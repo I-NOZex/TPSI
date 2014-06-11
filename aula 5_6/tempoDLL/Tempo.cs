@@ -54,5 +54,9 @@ namespace TempoDLL {
         public override string ToString() {
             return string.Format("{0}h {1}min {2}seg", this.Hora, this.Minuto, this.Segundo);
         }
+
+        public void addHoras(int hora) {
+            this.Hora += hora;
+        }
     }
 }

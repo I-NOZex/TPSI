@@ -8,16 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TempoDLL;
+using Microsoft.VisualBasic;
 
 namespace tempoGui {
     public partial class frm_tempo : Form {
+        static Tempo t = new Tempo();
         public frm_tempo() {
             InitializeComponent();
         }
 
         private void btn_mostraHoras_Click(object sender, EventArgs e) {
             try {
-                Tempo t = new Tempo();
                 t.Hora = int.Parse(edt_h.Text);
                 t.Minuto = int.Parse(edt_m.Text);
                 t.Segundo = int.Parse(edt_s.Text);
@@ -35,6 +36,13 @@ namespace tempoGui {
 
         private void btn_mostraHoras_MouseLeave(object sender, EventArgs e) {
             btn_mostraHoras.BackColor = DefaultBackColor;
+        }
+
+        private void btn_addHoras_Click(object sender, EventArgs e) {
+            int hora = int.Parse(edt_incH.Text);
+            t.addHoras(hora);
+            MessageBox.Show("Horas atualizadas:\n"+t.ToString());
+
         }
     }
 }

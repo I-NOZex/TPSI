@@ -31,6 +31,8 @@
             this.lb_h = new System.Windows.Forms.Label();
             this.lb_m = new System.Windows.Forms.Label();
             this.lb_s = new System.Windows.Forms.Label();
+            this.btn_addHoras = new System.Windows.Forms.Button();
+            this.edt_incH = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_mostraHoras
@@ -93,11 +95,31 @@
             this.lb_s.TabIndex = 6;
             this.lb_s.Text = "Segundos:";
             // 
+            // btn_addHoras
+            // 
+            this.btn_addHoras.Location = new System.Drawing.Point(132, 185);
+            this.btn_addHoras.Name = "btn_addHoras";
+            this.btn_addHoras.Size = new System.Drawing.Size(138, 39);
+            this.btn_addHoras.TabIndex = 7;
+            this.btn_addHoras.Text = "Incrementar Horas...";
+            this.btn_addHoras.UseVisualStyleBackColor = true;
+            this.btn_addHoras.Click += new System.EventHandler(this.btn_addHoras_Click);
+            // 
+            // edt_incH
+            // 
+            this.edt_incH.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.edt_incH.Location = new System.Drawing.Point(10, 185);
+            this.edt_incH.Name = "edt_incH";
+            this.edt_incH.Size = new System.Drawing.Size(116, 38);
+            this.edt_incH.TabIndex = 8;
+            // 
             // frm_tempo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 182);
+            this.ClientSize = new System.Drawing.Size(279, 236);
+            this.Controls.Add(this.edt_incH);
+            this.Controls.Add(this.btn_addHoras);
             this.Controls.Add(this.lb_s);
             this.Controls.Add(this.lb_m);
             this.Controls.Add(this.lb_h);
@@ -123,6 +145,8 @@
         private System.Windows.Forms.Label lb_h;
         private System.Windows.Forms.Label lb_m;
         private System.Windows.Forms.Label lb_s;
+        private System.Windows.Forms.Button btn_addHoras;
+        private System.Windows.Forms.TextBox edt_incH;
     }
 }
 
