@@ -42,6 +42,8 @@
             this.btn_mostraHoras.Text = "Mostrar Horas";
             this.btn_mostraHoras.UseVisualStyleBackColor = true;
             this.btn_mostraHoras.Click += new System.EventHandler(this.btn_mostraHoras_Click);
+            this.btn_mostraHoras.MouseEnter += new System.EventHandler(this.btn_mostraHoras_MouseEnter);
+            this.btn_mostraHoras.MouseLeave += new System.EventHandler(this.btn_mostraHoras_MouseLeave);
             // 
             // edt_h
             // 

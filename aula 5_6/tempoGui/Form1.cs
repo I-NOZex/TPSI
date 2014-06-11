@@ -28,5 +28,13 @@ namespace tempoGui {
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btn_mostraHoras_MouseEnter(object sender, EventArgs e) {
+            btn_mostraHoras.BackColor = Color.Silver;
+        }
+
+        private void btn_mostraHoras_MouseLeave(object sender, EventArgs e) {
+            btn_mostraHoras.BackColor = DefaultBackColor;
+        }
     }
 }
