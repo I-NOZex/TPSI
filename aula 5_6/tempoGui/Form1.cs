@@ -23,7 +23,7 @@ namespace tempoGui {
                 t.Minuto = int.Parse(edt_m.Text);
                 t.Segundo = int.Parse(edt_s.Text);
 
-                MessageBox.Show(t.ToString());
+                lb_horas.Text = t.ToString();
             }
             catch (Exception ex) {
                 MessageBox.Show(ex.Message);
@@ -31,17 +31,23 @@ namespace tempoGui {
         }
 
         private void btn_mostraHoras_MouseEnter(object sender, EventArgs e) {
-            btn_mostraHoras.BackColor = Color.Silver;
+            btn_setHoras.BackColor = Color.Silver;
         }
 
         private void btn_mostraHoras_MouseLeave(object sender, EventArgs e) {
-            btn_mostraHoras.BackColor = DefaultBackColor;
+            btn_setHoras.BackColor = DefaultBackColor;
         }
 
         private void btn_addHoras_Click(object sender, EventArgs e) {
-            int hora = int.Parse(edt_incH.Text);
-            t.addHoras(hora);
-            MessageBox.Show("Horas atualizadas:\n"+t.ToString());
+            try {
+                int hora = int.Parse(edt_incH.Text);
+                t.addHoras(hora);
+
+                lb_horas.Text = t.ToString();
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
 
         }
     }

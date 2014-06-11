@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_tempo));
-            this.btn_mostraHoras = new System.Windows.Forms.Button();
+            this.btn_setHoras = new System.Windows.Forms.Button();
             this.edt_h = new System.Windows.Forms.TextBox();
             this.edt_m = new System.Windows.Forms.TextBox();
             this.edt_s = new System.Windows.Forms.TextBox();
@@ -33,19 +33,20 @@
             this.lb_s = new System.Windows.Forms.Label();
             this.btn_addHoras = new System.Windows.Forms.Button();
             this.edt_incH = new System.Windows.Forms.TextBox();
+            this.lb_horas = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_mostraHoras
+            // btn_setHoras
             // 
-            this.btn_mostraHoras.Location = new System.Drawing.Point(10, 130);
-            this.btn_mostraHoras.Name = "btn_mostraHoras";
-            this.btn_mostraHoras.Size = new System.Drawing.Size(260, 39);
-            this.btn_mostraHoras.TabIndex = 0;
-            this.btn_mostraHoras.Text = "Mostrar Horas";
-            this.btn_mostraHoras.UseVisualStyleBackColor = true;
-            this.btn_mostraHoras.Click += new System.EventHandler(this.btn_mostraHoras_Click);
-            this.btn_mostraHoras.MouseEnter += new System.EventHandler(this.btn_mostraHoras_MouseEnter);
-            this.btn_mostraHoras.MouseLeave += new System.EventHandler(this.btn_mostraHoras_MouseLeave);
+            this.btn_setHoras.Location = new System.Drawing.Point(10, 130);
+            this.btn_setHoras.Name = "btn_setHoras";
+            this.btn_setHoras.Size = new System.Drawing.Size(260, 39);
+            this.btn_setHoras.TabIndex = 0;
+            this.btn_setHoras.Text = "Define Horas";
+            this.btn_setHoras.UseVisualStyleBackColor = true;
+            this.btn_setHoras.Click += new System.EventHandler(this.btn_mostraHoras_Click);
+            this.btn_setHoras.MouseEnter += new System.EventHandler(this.btn_mostraHoras_MouseEnter);
+            this.btn_setHoras.MouseLeave += new System.EventHandler(this.btn_mostraHoras_MouseLeave);
             // 
             // edt_h
             // 
@@ -113,11 +114,22 @@
             this.edt_incH.Size = new System.Drawing.Size(116, 38);
             this.edt_incH.TabIndex = 8;
             // 
+            // lb_horas
+            // 
+            this.lb_horas.AutoSize = true;
+            this.lb_horas.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_horas.Location = new System.Drawing.Point(23, 237);
+            this.lb_horas.Name = "lb_horas";
+            this.lb_horas.Size = new System.Drawing.Size(221, 39);
+            this.lb_horas.TabIndex = 9;
+            this.lb_horas.Text = "?h ?min ?seg";
+            // 
             // frm_tempo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 236);
+            this.ClientSize = new System.Drawing.Size(279, 285);
+            this.Controls.Add(this.lb_horas);
             this.Controls.Add(this.edt_incH);
             this.Controls.Add(this.btn_addHoras);
             this.Controls.Add(this.lb_s);
@@ -126,7 +138,7 @@
             this.Controls.Add(this.edt_s);
             this.Controls.Add(this.edt_m);
             this.Controls.Add(this.edt_h);
-            this.Controls.Add(this.btn_mostraHoras);
+            this.Controls.Add(this.btn_setHoras);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_tempo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -138,7 +150,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_mostraHoras;
+        private System.Windows.Forms.Button btn_setHoras;
         private System.Windows.Forms.TextBox edt_h;
         private System.Windows.Forms.TextBox edt_m;
         private System.Windows.Forms.TextBox edt_s;
@@ -147,6 +159,7 @@
         private System.Windows.Forms.Label lb_s;
         private System.Windows.Forms.Button btn_addHoras;
         private System.Windows.Forms.TextBox edt_incH;
+        private System.Windows.Forms.Label lb_horas;
     }
 }
 
