@@ -1,0 +1,4 @@
+C:\Users\I-NOZex\documents\visual studio 2012\Projects\aula 5_6\tempoDLL\bin\Debug\tempoDLL.dll
+C:\Users\I-NOZex\documents\visual studio 2012\Projects\aula 5_6\tempoDLL\bin\Debug\tempoDLL.pdb
+C:\Users\I-NOZex\documents\visual studio 2012\Projects\aula 5_6\tempoDLL\obj\Debug\tempoDLL.dll
+C:\Users\I-NOZex\documents\visual studio 2012\Projects\aula 5_6\tempoDLL\obj\Debug\tempoDLL.pdb

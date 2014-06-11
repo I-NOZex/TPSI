@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempoConsole", "tempo\tempoConsole.csproj", "{740622A3-7495-448F-A8B8-DA9FE282036C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempoGUI", "tempoGui\tempoGUI.csproj", "{92432592-A449-4148-A557-30D4BECFAC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempoDLL", "tempoDLL\tempoDLL.csproj", "{0EF70986-F868-47FA-ADD5-063B87986658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740622A3-7495-448F-A8B8-DA9FE282036C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740622A3-7495-448F-A8B8-DA9FE282036C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740622A3-7495-448F-A8B8-DA9FE282036C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740622A3-7495-448F-A8B8-DA9FE282036C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92432592-A449-4148-A557-30D4BECFAC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92432592-A449-4148-A557-30D4BECFAC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92432592-A449-4148-A557-30D4BECFAC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92432592-A449-4148-A557-30D4BECFAC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF70986-F868-47FA-ADD5-063B87986658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF70986-F868-47FA-ADD5-063B87986658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF70986-F868-47FA-ADD5-063B87986658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF70986-F868-47FA-ADD5-063B87986658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
