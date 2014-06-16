@@ -75,10 +75,17 @@ namespace jogoadivinha {
         }
 
         public Jogo(int limSuperior, int limInferior, int numMaxTentativas) {
+            this.LimSuperior = limSuperior;
+            this.LimInferior = limInferior;
+            this.NumMaxTentativas = numMaxTentativas;
         }
 
         public string Ajuda() {
-            return "";
+            if (NumTentado > NumeroSorteado)
+                return "Maior";
+            else
+                return "Menor";
+
         }
 
         public bool PodeJogar() {
