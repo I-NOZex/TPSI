@@ -38,7 +38,7 @@ namespace jogoadivinha {
                 return limSuperior;
             }
             set {
-                limInferior = value;
+                limSuperior = value;
             }
         }
         public int NumeroSorteado {
@@ -46,7 +46,7 @@ namespace jogoadivinha {
                 return numeroSorteado;
             }
             set {
-                limInferior = value;
+                numeroSorteado = value;
             }
         }
         public int NumMaxTentativas {
@@ -54,7 +54,7 @@ namespace jogoadivinha {
                 return numMaxTentativas;
             }
             set {
-                limInferior = value;
+                numMaxTentativas = value;
             }
         }
         public int NumTentado {
@@ -62,7 +62,7 @@ namespace jogoadivinha {
                 return numTentado;
             }
             set {
-                limInferior = value;
+                numTentado = value;
             }
         }
         public int NumTentativas {
@@ -70,7 +70,7 @@ namespace jogoadivinha {
                 return numTentativas;
             }
             set {
-                limInferior = value;
+                numTentativas = value;
             }
         }
 
@@ -78,6 +78,7 @@ namespace jogoadivinha {
             this.LimSuperior = limSuperior;
             this.LimInferior = limInferior;
             this.NumMaxTentativas = numMaxTentativas;
+            this.NumeroSorteado = RandomNumber(LimInferior, LimSuperior);
         }
 
         public string Ajuda() {
@@ -89,7 +90,7 @@ namespace jogoadivinha {
         }
 
         public bool PodeJogar() {
-            if (NumTentativas <= NumMaxTentativas)
+            if (NumTentativas < NumMaxTentativas)
                 return true;
             else
                 return false;
@@ -101,6 +102,8 @@ namespace jogoadivinha {
         }
 
         public bool Tentativa(int numTentado) {
+            NumTentado = numTentado;
+            NumTentativas++;
             if (numTentado == NumeroSorteado)
                 return true;
             else
