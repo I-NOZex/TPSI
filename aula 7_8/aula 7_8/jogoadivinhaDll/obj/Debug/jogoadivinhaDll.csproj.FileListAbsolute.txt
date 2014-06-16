@@ -1,0 +1,4 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinhaDll\bin\Debug\jogoadivinhaDll.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinhaDll\bin\Debug\jogoadivinhaDll.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinhaDll\obj\Debug\jogoadivinhaDll.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinhaDll\obj\Debug\jogoadivinhaDll.pdb

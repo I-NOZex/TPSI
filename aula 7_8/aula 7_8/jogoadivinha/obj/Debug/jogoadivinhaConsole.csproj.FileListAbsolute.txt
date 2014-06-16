@@ -1,0 +1,8 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\obj\Debug\jogoadivinhaConsole.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\obj\Debug\jogoadivinha.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\bin\Debug\jogoadivinha.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\bin\Debug\jogoadivinha.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\bin\Debug\jogoadivinha.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\bin\Debug\jogoadivinhaDll.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\bin\Debug\jogoadivinhaDll.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 7_8\jogoadivinha\obj\Debug\jogoadivinha.pdb
