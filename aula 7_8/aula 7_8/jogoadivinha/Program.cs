@@ -19,7 +19,7 @@ namespace jogoadivinhaConsole {
 
             Console.Clear();
 
-            Jogo j = new Jogo(limSup, limInf, numTent);
+            Jogo j = new Jogo(limInf, limSup, numTent);
 
             Console.WriteLine("Acabei de pensar num número entre {0} e {1}.\nConsegue adivinhá-lo em {2} tentativas?", limInf, limSup, numTent);
 

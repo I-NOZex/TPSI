@@ -74,7 +74,7 @@ namespace jogoadivinhaDll {
             }
         }
 
-        public Jogo(int limSuperior, int limInferior, int numMaxTentativas) {
+        public Jogo(int limInferior, int limSuperior, int numMaxTentativas) {
             this.LimSuperior = limSuperior;
             this.LimInferior = limInferior;
             this.NumMaxTentativas = numMaxTentativas;
