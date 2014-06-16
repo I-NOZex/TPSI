@@ -74,12 +74,24 @@ namespace jogoadivinha {
             }
         }
 
-        private int RandomNumber(int min, int max){ 
-            Random random = new Random(); 
-            return random.Next(min, max); 
+        public Jogo(int limSuperior, int limInferior, int numMaxTentativas) {
         }
 
-        public Jogo(int limSuperior, int limInferior, int numMaxTentativas) {
+        public string Ajuda() {
+            return "";
+        }
+
+        public bool PodeJogar() {
+            return false;
+        }
+
+        private int RandomNumber(int min, int max) {
+            Random random = new Random();
+            return random.Next(min, max);
+        }
+
+        public bool Tentativa() {
+            return false;
         }
 
     }
