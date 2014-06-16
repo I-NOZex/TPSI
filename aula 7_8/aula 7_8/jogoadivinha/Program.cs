@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 namespace jogoadivinha {
     class Program {
         static void Main(string[] args) {
-            int limInf = 0;
-            int limSup = 10;
-            int numTent = 5;
+        loop:
+            Console.WriteLine("Qual o limite minimo do número a gerar?");
+            int limInf = int.Parse(Console.ReadLine());
+            Console.WriteLine("Qual o limite maximo do número a gerar?");
+            int limSup = int.Parse(Console.ReadLine());
+            Console.WriteLine("Quantas tentativas deseja?");
+            int numTent = int.Parse(Console.ReadLine());
             int meuNumero = 0;
 
-        loop:
             Console.Clear();
 
             Jogo j = new Jogo(limSup, limInf, numTent);
