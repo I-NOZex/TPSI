@@ -89,7 +89,10 @@ namespace jogoadivinha {
         }
 
         public bool PodeJogar() {
-            return false;
+            if (NumTentativas <= NumMaxTentativas)
+                return true;
+            else
+                return false;
         }
 
         private int RandomNumber(int min, int max) {
@@ -97,8 +100,11 @@ namespace jogoadivinha {
             return random.Next(min, max);
         }
 
-        public bool Tentativa() {
-            return false;
+        public bool Tentativa(int numTentado) {
+            if (numTentado == NumeroSorteado)
+                return true;
+            else
+                return false;
         }
 
     }
