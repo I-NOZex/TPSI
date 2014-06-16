@@ -8,9 +8,12 @@ namespace jogoadivinha {
     class Program {
         static void Main(string[] args) {
             int limInf = 0;
-            int limSup = 5;
-            int numTent = 3;
+            int limSup = 10;
+            int numTent = 5;
             int meuNumero = 0;
+
+        loop:
+            Console.Clear();
 
             Jogo j = new Jogo(limSup, limInf, numTent);
 
@@ -22,13 +25,11 @@ namespace jogoadivinha {
 
                     if (j.Tentativa(meuNumero) == true) {
                         Console.WriteLine("Parabéns!\nAcertou em cheio!");
-                        Console.Read();
                         break;
                     }
                     else {
                         if (j.PodeJogar() == false) {
                             Console.WriteLine("Esgotou todas as tentativas :(\nO número era {0}.",j.NumeroSorteado);
-                            Console.Read();
                         }
                         else {
                             Console.WriteLine("O seu número é {0} que o meu.", j.Ajuda());
@@ -39,6 +40,9 @@ namespace jogoadivinha {
                 }
                 
             }
+            Console.WriteLine("Deseja voltar a jogar? :D\nS/N");
+            if (Console.ReadLine().ToUpper() == "S")
+                goto loop;
             Console.WriteLine("Dogh!");
         }
     }
