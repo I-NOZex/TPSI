@@ -1,1 +1,10 @@
 C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 9_10\ContadorPalavras\bin\Debug\ContadorPalavras.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\bin\Debug\ContadorPalavras.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\bin\Debug\ContadorPalavras.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\bin\Debug\ContadorPalavras.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\obj\Debug\ContadorPalavras.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\obj\Debug\ContadorPalavras.Form1.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\obj\Debug\ContadorPalavras.Properties.Resources.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\obj\Debug\ContadorPalavras.csproj.GenerateResource.Cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\obj\Debug\ContadorPalavras.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 9_10\ContadorPalavras\obj\Debug\ContadorPalavras.pdb
