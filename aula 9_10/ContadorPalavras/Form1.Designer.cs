@@ -28,9 +28,9 @@
             this.lbx_ord = new System.Windows.Forms.ListBox();
             this.lb_txtOrg = new System.Windows.Forms.Label();
             this.lb_plOrd = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgrid_ccount = new System.Windows.Forms.DataGridView();
             this.lbx_txtOrg = new System.Windows.Forms.ListBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgrid_ccount)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_ler
@@ -73,13 +73,13 @@
             this.lb_plOrd.TabIndex = 6;
             this.lb_plOrd.Text = "Palavras Ordenadas:";
             // 
-            // dataGridView1
+            // dtgrid_ccount
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(498, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(413, 449);
-            this.dataGridView1.TabIndex = 7;
+            this.dtgrid_ccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgrid_ccount.Location = new System.Drawing.Point(498, 12);
+            this.dtgrid_ccount.Name = "dtgrid_ccount";
+            this.dtgrid_ccount.Size = new System.Drawing.Size(413, 449);
+            this.dtgrid_ccount.TabIndex = 7;
             // 
             // lbx_txtOrg
             // 
@@ -95,14 +95,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(923, 473);
             this.Controls.Add(this.lbx_txtOrg);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtgrid_ccount);
             this.Controls.Add(this.lb_plOrd);
             this.Controls.Add(this.lb_txtOrg);
             this.Controls.Add(this.lbx_ord);
             this.Controls.Add(this.btn_ler);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgrid_ccount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,7 +115,7 @@
         private System.Windows.Forms.ListBox lbx_ord;
         private System.Windows.Forms.Label lb_txtOrg;
         private System.Windows.Forms.Label lb_plOrd;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgrid_ccount;
         private System.Windows.Forms.ListBox lbx_txtOrg;
     }
 }

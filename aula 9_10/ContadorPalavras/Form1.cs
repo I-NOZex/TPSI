@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -34,21 +35,29 @@ namespace ContadorPalavras {
             texto = texto.Replace("\n\n", " ");
             texto = texto.Replace('\n', ' ');
             palavras = texto.Split(' ');
+            Array.Sort(palavras);
+            lbx_ord.Items.AddRange(palavras);
             lbx_ord.Sorted = true;
 
             //Criação de um array de ParPalavraContador com tantos elementos quantos os elementos de um arra
             //(arrayPalavras).
             ParPalavraContador[] palavrasContador = new ParPalavraContador[palavras.Length];
             //Adicionar um novo objecto ao array
-            foreach (var palavra in palavras) {
-                
+            for (int i = 0; i < palavras.Length; i++ ) {
+                    foreach (ParPalavraContador palavra in palavrasContador) {
+                        if ((palavra != null) && (palavra.Palavra == palavras[i])) {
+                            palavra.Contador++;
+                        }else {
+                            ParPalavraContador p = new ParPalavraContador();
+                            p.Palavra = palavras[i];
+                            p.Contador = 1;
+                            palavrasContador[i] = p;
+                        }                        
+                    }
             }
-            ParPalavraContador p = new ParPalavraContador();
-            p.Palavra = palavras[i];
-            p.Contador = 1;
-            palavrasContador[palavras] = p;
-            //Alterar o contador de uma determinada palavra
-            palavrasContador[j].Contador = palavrasContador[j].Contador + 1;
+
+            dtgrid_ccount.DataSource = palavrasContador;
+           
         }
     }
 }
