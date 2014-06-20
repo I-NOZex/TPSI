@@ -32,6 +32,7 @@ namespace ContadorPalavras {
             re.Close();
             //texto = texto.Replace('.', ' ');
             //texto = texto.Replace(',', ' ');
+            texto = texto.TrimStart(' ');
             texto = texto.Replace("\n\n", " ");
             texto = texto.Replace('\n', ' ');
             palavras = texto.Split(' ');
@@ -39,22 +40,75 @@ namespace ContadorPalavras {
             lbx_ord.Items.AddRange(palavras);
             lbx_ord.Sorted = true;
 
+            ParPalavraContador[] palavrasContador = new ParPalavraContador[palavras.Length];
+            int totalPalavrasUsadas = 0;
+
+            //
+            for (int i = 0; i < palavras.Length; i++) {
+
+                bool encontrou = false;
+                for (int p = 0; p < totalPalavrasUsadas; p++) {
+                    if (palavras[i] == palavrasContador[p].Palavra) {
+                        encontrou = true;
+                        palavrasContador[p].Contador++;
+                        break;
+                    }
+                }
+                //
+                if (!encontrou) {
+                    palavrasContador[totalPalavrasUsadas++] = new ParPalavraContador() {
+                        Palavra = palavras[i],
+                        Contador = 1
+                    };
+                }
+            }
+
             //Criação de um array de ParPalavraContador com tantos elementos quantos os elementos de um arra
             //(arrayPalavras).
-            ParPalavraContador[] palavrasContador = new ParPalavraContador[palavras.Length];
+            /*ParPalavraContador[] palavrasContador = new ParPalavraContador[palavras.Length];
             //Adicionar um novo objecto ao array
+            string lastw = null;
             for (int i = 0; i < palavras.Length; i++ ) {
-                    foreach (ParPalavraContador palavra in palavrasContador) {
-                        if ((palavra != null) && (palavra.Palavra == palavras[i])) {
+                int j = 0;
+                //ParPalavraContador p = new ParPalavraContador();
+                //p.Palavra = palavras[i];
+                //p.Contador = 1;
+                //palavrasContador[i] = p;
+                foreach (ParPalavraContador palavra in palavrasContador) {
+                        //if (i == 0)
+                            //break;
+
+                        if ((i != 0) && ((j < i) || (palavra.Palavra == palavras[i]))) {
                             palavra.Contador++;
-                        }else {
-                            ParPalavraContador p = new ParPalavraContador();
-                            p.Palavra = palavras[i];
-                            p.Contador = 1;
-                            palavrasContador[i] = p;
-                        }                        
-                    }
-            }
+                        }
+                        else {
+                              //lastw = null;
+                                ParPalavraContador p = new ParPalavraContador();
+                                p.Palavra = palavras[i];
+                                p.Contador = 1;
+                                palavrasContador[i] = p;
+                     
+                        }
+                        j++;
+
+                }
+                //if ((lastw != palavras[i])) {
+
+                //}
+                    //foreach (ParPalavraContador palavra in palavrasContador) {
+                    //    if (i!=j){
+                    //        if ((palavra != null) && (palavra.Palavra == palavras[i])) {
+                    //            palavra.Contador++;
+                    //        }else {
+                    //            ParPalavraContador p = new ParPalavraContador();
+                    //            p.Palavra = palavras[i];
+                    //            p.Contador = 1;
+                    //            palavrasContador[i] = p;
+                    //        }   
+                     
+                    //    }
+                    //}
+            }*/
 
             dtgrid_ccount.DataSource = palavrasContador;
            
