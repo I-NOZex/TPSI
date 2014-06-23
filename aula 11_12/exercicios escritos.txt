@@ -1,0 +1,20 @@
+Exercícios escritos 
+1 Fill in the blanks in each of the following statements: 
+a. A method is said to __throw__ an exception when that method detects that a problem has occurred. 
+(Dize-se que um metodo LANÇA uma excepçao quando esse metodo detecta que um problema ocorreu)
+
+b. When present, the __finally__ block associated with a TRy block always executes.
+(Quando presente, o bloco FINALLY, associado com um bloco TRY, é sempre executado) 
+
+c. The statement that throws an exception is called the __throw point__ of the exception. 
+(A declaraçao que lança uma excepçao é chamado de THROW POINT da excepçao)
+
+d. C# uses the __________ model of exception handling as opposed to the __________ model of exception handling.
+[ignorar a D] 
+
+e. An uncaught exception in a method causes the method to __exit__ from the method- call stack. 
+(Uma execepçao nao "tratada" num metodo, tem como consequencia a SAIDA do metodo da pilha de chamadas)
+
+f. Method Convert.ToInt32 can throw a(n) __FormatException__ exception if its argument is not a valid integer value.
+(O metodo "Convert.ToInt32" pode lançar uma FORMATEXCEPTION, se o argumento nao for um valor inteiro válido)
+http://msdn.microsoft.com/en-us/library/sf1aw27b(v=vs.110).aspx
