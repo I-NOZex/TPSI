@@ -1,4 +1,4 @@
-Exercício 1
+Exercício 1 ==========================================================================================
 
 a)Indique todas as mensagens e por ordem, que o programa emite ao ser executado. 
 Construtor Original
@@ -12,3 +12,14 @@ O polimorfismo é a definiçao de um metodo de uma forma mais abstata, isto é, cad
 pode ter uma implementaçao diferente do metodo da classe original.
 Ao se usar na assinatura do metodo da classe original a palavra VIRTUAL, na classe derivada que
 pretende "reescrever" o metodo, deve-se usar a palavra OVERRIDE
+
+Exercício 2 ==========================================================================================
+a) Indique a implementação de um construtor que permita definir um novo ponto
+public Ponto(int x, int y){
+	this.X = x;
+	this.Y = y;
+}
+
+b)Indique um construtor que permita construir um ponto
+public Ponto(int x):this(x,0){
+}
