@@ -1,0 +1,6 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\bin\Debug\console.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\bin\Debug\console.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\bin\Debug\console.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\obj\Debug\Excepcao01.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\obj\Debug\console.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\obj\Debug\console.pdb

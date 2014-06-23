@@ -1,0 +1,24 @@
+5. Execute o programa fazendo CTRL+F5 e insira os valores para o numerador 100 e denominador 50. 
+Anote os resultados:
+numerador/denominador = 100/50 = 2
+Press any key to continue . . .
+
+6. Execute o programa fazendo CTRL+F5 e insira os valores para o numerador 100 e denominador 0. 
+Na janela de pop-up diga que não quer enviar a mensagem de erro para a Microsoft. Anote os resultados:
+Excepção não processada: System.DivideByZeroException: Tentativa de dividir por
+zero.
+   em console.Program.Main(String[] args) em c:\Users\I-NOZex\Documents\Visual S
+tudio 2012\Projects\aula 11_12\console\Program.cs:line 16
+Press any key to continue . . .
+
+7. Execute o programa fazendo CTRL+F5 e insira os valores para o numerador 100 e denominador “Olá” (sem as aspas). 
+Na janela de pop-up diga que não quer enviar a mensagem de erro para a Microsoft. Anote os resultados: 
+Excepção não processada: System.FormatException: Cadeia de caracteres de entrada
+ com formato incorrecto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffe
+r& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo in
+fo)
+   em System.Convert.ToInt32(String value)
+   em console.Program.Main(String[] args) em c:\Users\I-NOZex\Documents\Visual S
+tudio 2012\Projects\aula 11_12\console\Program.cs:line 15
