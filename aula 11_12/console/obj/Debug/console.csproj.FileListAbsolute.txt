@@ -1,0 +1,2 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 7_8\aula 11_12\console\bin\Debug\console.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\console\bin\Debug\console.exe.config
