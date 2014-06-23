@@ -1,0 +1,5 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\Excepcao02\bin\Debug\Excepcao02.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\Excepcao02\bin\Debug\Excepcao02.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\Excepcao02\bin\Debug\Excepcao02.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\Excepcao02\obj\Debug\Excepcao02.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aula 11_12\Excepcao02\obj\Debug\Excepcao02.pdb

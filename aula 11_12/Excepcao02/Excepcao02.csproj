@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>d207e2a1-9580-45b2-90a7-786a87d3d5ad</ProjectGuid>
+    <ProjectGuid>{BD82DE4C-E430-41AC-87F3-100CCA3F6B0F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Excepcao02</RootNamespace>
@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MinhasExcepcoes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teste.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

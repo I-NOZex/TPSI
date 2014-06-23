@@ -3,6 +3,7 @@ Exercício 1 ====================================================================
 a)Indique todas as mensagens e por ordem, que o programa emite ao ser executado. 
 Construtor Original
 Construtor Original
+Construtor Original
 Construtor Derivada
 Escreve mensagem: Original
 Escreve mensagem: Derivada

@@ -1,0 +1,32 @@
+Exercicio 3 ==========================================================
+6.Na classe Program crie uma nova instancia da classe Teste e, 
+sem usar os blocos try catch experimente cada um dos métodos. 
+Nota: para executar o programa faça CTRL+F5. Anote os resultados e comente. 
+
+erro 1:
+	Excepção não processada: Excepcao02.MinhasExcepcoes: Operação ilegal.
+	   em Excepcao02.Teste.erro01() em c:\Users\I-NOZex\Documents\Visual Studio 2012
+	\Projects\aula 11_12\Excepcao02\Teste.cs:line 10
+	   em Excepcao02.Program.Main(String[] args) em c:\Users\I-NOZex\Documents\Visua
+	l Studio 2012\Projects\aula 11_12\Excepcao02\Program.cs:line 11
+	Press any key to continue . . .
+
+erro 2:
+	Excepção não processada: Excepcao02.MinhasExcepcoes: yuhuuu
+	   em Excepcao02.Teste.erro02() em c:\Users\I-NOZex\Documents\Visual Studio 2012
+	\Projects\aula 11_12\Excepcao02\Teste.cs:line 13
+	   em Excepcao02.Program.Main(String[] args) em c:\Users\I-NOZex\Documents\Visua
+	l Studio 2012\Projects\aula 11_12\Excepcao02\Program.cs:line 12
+	Press any key to continue . . .
+
+erro 3:
+	Excepção não processada: Excepcao02.MinhasExcepcoes: Ups! ---> System.DivideByZe
+	roException: Tentativa de dividir por zero.
+	   em Excepcao02.Teste.erro03() em c:\Users\I-NOZex\Documents\Visual Studio 2012
+	\Projects\aula 11_12\Excepcao02\Teste.cs:line 19
+	   --- Fim do rastreio da pilha de excepção interna ---
+	   em Excepcao02.Teste.erro03() em c:\Users\I-NOZex\Documents\Visual Studio 2012
+	\Projects\aula 11_12\Excepcao02\Teste.cs:line 21
+	   em Excepcao02.Program.Main(String[] args) em c:\Users\I-NOZex\Documents\Visua
+	l Studio 2012\Projects\aula 11_12\Excepcao02\Program.cs:line 13
+	Press any key to continue . . .
