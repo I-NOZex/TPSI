@@ -23,11 +23,13 @@ namespace dbConsole {
 
                 while (reader.Read()) {
                     Console.WriteLine("ID: {0} | NOME: {1} | DATA NASC.: {2} | ALTURA: {3}",
-                        reader.GetInt32(0), reader.GetString(1), reader.GetDateTime(2).ToShortDateString(), reader.GetInt32(3));
+                        reader.GetInt32(0), reader.GetString(1).TrimEnd(), reader.GetDateTime(2).ToShortDateString(), reader.GetInt32(3));
                 }
+
             } catch (Exception ex){
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(ex.Message);
+
             } finally {
                 if (con.State == System.Data.ConnectionState.Open) {
                     con.Close();
@@ -36,6 +38,7 @@ namespace dbConsole {
                 cmd.Dispose();
                 reader.Close();
                 reader.Dispose();
+
             }
             Console.Read();
         }
