@@ -1,0 +1,6 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 15_16\dbConsole\bin\Debug\dbConsole.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 15_16\dbConsole\bin\Debug\dbConsole.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 15_16\dbConsole\bin\Debug\dbConsole.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 15_16\dbConsole\obj\Debug\dbConsole.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 15_16\dbConsole\obj\Debug\dbConsole.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 15_16\dbConsole\obj\Debug\dbConsole.pdb
