@@ -9,6 +9,7 @@ namespace ToDo2DLL
     public class ToDo {
         private string tarefa;
         private DateTime dataTarefa;
+        private DateTime dataConclusao;
         private bool concluido;
 
         public string Tarefa {
@@ -28,6 +29,18 @@ namespace ToDo2DLL
             set {
                 if (value > DateTime.Now) {
                     this.dataTarefa = value;
+                }
+                else {
+                    throw new ArgumentException("Introduza uma data superior à atual.");
+                }
+            }
+        }
+
+        public DateTime DataConclusao {
+            get { return this.dataConclusao; }
+            set {
+                if (value > DateTime.Now) {
+                    this.dataConclusao = value;
                 }
                 else {
                     throw new ArgumentException("Introduza uma data superior à atual.");

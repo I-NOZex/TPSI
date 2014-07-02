@@ -29,11 +29,13 @@ namespace ToDo2DLL {
             if (cmd.ExecuteNonQuery() < 1)
                 throw new Exception("Nenhum registo inserido.");
             else {
-                cmd.CommandType = System.Data.CommandType.Text;
                 cmd.CommandText = string.Format("SELECT IDENT_CURRENT('{0}')",table);
-                return cmd.ExecuteReader().GetInt32(0);
+                SqlDataReader read = cmd.ExecuteReader();
+                if (read.Read()) {
+                    return (int)read.GetDecimal(0);
+                }
             }
-            
+            return -1; 
         }
 
         public void close() {
