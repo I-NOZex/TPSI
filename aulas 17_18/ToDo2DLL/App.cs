@@ -45,15 +45,16 @@ namespace ToDo2DLL {
             string values = string.Format("'{0}','{1}'", this.UserName, this.DataRegisto);
             try {
                 id = db.insert("app", "username, data_reg", values);
-
+                db.close();
                 foreach (ToDo item in Todo_s) {
-                    values = string.Format("'{0}','{1}','{2}'", item.Tarefa, item.DataTarefa, item.DataConclusao, item.Concluido, id);
+                    values = string.Format("'{0}','{1}','{2}',{3},{4}", item.Tarefa, item.DataTarefa, item.DataConclusao,Convert.ToByte(item.Concluido), id);
+                    db = new DB(".", "LP_DB");
                     db.insert(
                         "todo",
                         "tarefa, data_reg, data_concl, concluido, user_id",
                         values
                     );
-
+                    db.close();
                 }
 	        } catch (Exception ex) {
                 Console.ForegroundColor = ConsoleColor.Red;
