@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo2DLL", "ToDo2DLL\ToDo2DLL.csproj", "{8D46F21B-0A71-4A83-9C99-53A635FF301C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo2Console", "ToDo2Console\ToDo2Console.csproj", "{792A6E93-AA25-47C8-BA5B-83F2FB610290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8D46F21B-0A71-4A83-9C99-53A635FF301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D46F21B-0A71-4A83-9C99-53A635FF301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D46F21B-0A71-4A83-9C99-53A635FF301C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792A6E93-AA25-47C8-BA5B-83F2FB610290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792A6E93-AA25-47C8-BA5B-83F2FB610290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792A6E93-AA25-47C8-BA5B-83F2FB610290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792A6E93-AA25-47C8-BA5B-83F2FB610290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

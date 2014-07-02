@@ -1,0 +1,5 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 17_18\ToDo2DLL\bin\Debug\ToDo2DLL.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 17_18\ToDo2DLL\bin\Debug\ToDo2DLL.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 17_18\ToDo2DLL\obj\Debug\ToDo2DLL.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 17_18\ToDo2DLL\obj\Debug\ToDo2DLL.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\aulas 17_18\ToDo2DLL\obj\Debug\ToDo2DLL.pdb
