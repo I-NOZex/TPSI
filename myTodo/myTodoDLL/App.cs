@@ -29,9 +29,9 @@ namespace myTodoDLL{
         /// </summary>
         /// <param name="todo">Todo object</param>
         public void addTodo(Todo todo) {
-            if(this.todo_s == default(List<Todo>))
-                this.todo_s = new List<Todo>();
-            this.todo_s.Add(todo);
+            if (Todo_s == default(List<Todo>))
+                Todo_s = new List<Todo>();
+            Todo_s.Add(todo);
         }
     }
 }

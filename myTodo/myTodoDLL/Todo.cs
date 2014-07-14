@@ -9,13 +9,13 @@ namespace myTodoDLL {
         private string tarefa;
 
         public DateTime Data { get; set; }
-        private string Tarefa {
+        public string Tarefa {
             get { return this.tarefa; }
             set {
                 if (!string.IsNullOrEmpty(value))
                     this.tarefa = value;
                 else
-                    throw new todoException("Deve instroduzir uma descrição da tarefa");
+                    throw new todoException("Deve introduzir uma descrição da tarefa");
             }
         }
     }

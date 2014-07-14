@@ -1,0 +1,11 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\bin\Debug\myTodoForm.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\bin\Debug\myTodoForm.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\bin\Debug\myTodoForm.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\bin\Debug\myTodoDLL.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\bin\Debug\myTodoDLL.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\obj\Debug\myTodoForm.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\obj\Debug\myTodoForm.frm_todo.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\obj\Debug\myTodoForm.Properties.Resources.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\obj\Debug\myTodoForm.csproj.GenerateResource.Cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\obj\Debug\myTodoForm.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoForm\obj\Debug\myTodoForm.pdb

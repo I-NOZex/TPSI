@@ -1,0 +1,5 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoDLL\bin\Debug\myTodoDLL.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoDLL\bin\Debug\myTodoDLL.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoDLL\obj\Debug\myTodoDLL.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoDLL\obj\Debug\myTodoDLL.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\myTodo\myTodoDLL\obj\Debug\myTodoDLL.pdb
