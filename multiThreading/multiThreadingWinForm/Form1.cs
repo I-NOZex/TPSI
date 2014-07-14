@@ -23,7 +23,7 @@ namespace multiThreadingWinForm {
             int limite = 100;
             int j = 0;
             //a cada iteração verifica se o thread foi cancelado e faz o report do progresso!
-            for(int i = 0; i < limite; i++){
+            for(int i = 0; i <= limite; i++){
                 if(thread1.CancellationPending){
                     e.Cancel = true;
                     break;
@@ -32,7 +32,7 @@ namespace multiThreadingWinForm {
                     Thread.Sleep(500);
                     j = i;
             }
-                e.Result = limite;
+                e.Result = j;
         }
 
         private void thread1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
