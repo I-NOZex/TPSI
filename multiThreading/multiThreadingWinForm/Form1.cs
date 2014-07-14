@@ -54,7 +54,7 @@ namespace multiThreadingWinForm {
 
         private void btn_start_Click(object sender, EventArgs e) {
             if(thread1.IsBusy != true)
-            thread1.RunWorkerAsync();
+                thread1.RunWorkerAsync();
         }
     }
 }
