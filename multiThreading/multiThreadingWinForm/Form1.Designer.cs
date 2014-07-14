@@ -54,6 +54,7 @@
             this.btn_cancel.TabIndex = 1;
             this.btn_cancel.Text = "Cancelar";
             this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // btn_free
             // 
@@ -73,6 +74,7 @@
             this.btn_start.TabIndex = 3;
             this.btn_start.Text = "Iniciar";
             this.btn_start.UseVisualStyleBackColor = true;
+            this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // lb
             // 

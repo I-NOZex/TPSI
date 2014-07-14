@@ -32,7 +32,7 @@ namespace multiThreadingWinForm {
                     Thread.Sleep(500);
                     j = i;
             }
-                e.Result = i;
+                e.Result = limite;
         }
 
         private void thread1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
@@ -45,6 +45,14 @@ namespace multiThreadingWinForm {
 
         private void btn_free_Click(object sender, EventArgs e) {
             MessageBox.Show("Test");
+        }
+
+        private void btn_cancel_Click(object sender, EventArgs e) {
+            thread1.CancelAsync();
+        }
+
+        private void btn_start_Click(object sender, EventArgs e) {
+            thread1.RunWorkerAsync();
         }
     }
 }
