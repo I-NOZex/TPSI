@@ -12,9 +12,10 @@ namespace myTodoDLL{
         public string User {
             get { return this.user; }
             set {
-                if (!string.IsNullOrEmpty(value)) {
-                    this.user = value;   
-                }
+                if (!string.IsNullOrEmpty(value))
+                    this.user = value;
+                else
+                    throw new todoException("O campo de utilizador é obrigatório");
             }
         }
         public DateTime Data { get; set; }

@@ -38,6 +38,23 @@ namespace myTodoDLL {
             return -1;
         }
 
+        public int update(string table, string column, string value, string condition) {
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = string.Format("UPDATE [{0}] SET {1}={2} WHERE {3}", table, column, value, condition);
+            cmd.Connection = con;
+            con.Open();
+            if (cmd.ExecuteNonQuery() < 1)
+                throw new Exception("Nenhum registo inserido.");
+            else {
+                cmd.CommandText = string.Format("SELECT IDENT_CURRENT('{0}')", table);
+                SqlDataReader read = cmd.ExecuteReader();
+                if (read.Read()) {
+                    return (int)read.GetDecimal(0);
+                }
+            }
+            return -1;
+        }
+
         public void close() {
             if (con.State == System.Data.ConnectionState.Open) {
                 con.Close();
