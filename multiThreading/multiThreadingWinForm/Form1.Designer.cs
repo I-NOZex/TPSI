@@ -37,6 +37,7 @@
             this.thread1.WorkerSupportsCancellation = true;
             this.thread1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.thread1_DoWork);
             this.thread1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.thread1_ProgressChanged);
+            this.thread1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.thread1_RunWorkerCompleted);
             // 
             // pb
             // 
@@ -62,6 +63,7 @@
             this.btn_free.TabIndex = 2;
             this.btn_free.Text = "Estou Livre";
             this.btn_free.UseVisualStyleBackColor = true;
+            this.btn_free.Click += new System.EventHandler(this.btn_free_Click);
             // 
             // btn_start
             // 

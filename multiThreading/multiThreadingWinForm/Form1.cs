@@ -20,8 +20,31 @@ namespace multiThreadingWinForm {
         }
 
         private void thread1_DoWork(object sender, DoWorkEventArgs e) {
-            for (int i = 0; i < 100; i++)
-                Thread.Sleep(100);
+            int limite = 100;
+            int j = 0;
+            //a cada iteração verifica se o thread foi cancelado e faz o report do progresso!
+            for(int i = 0; i < limite; i++){
+                if(thread1.CancellationPending){
+                    e.Cancel = true;
+                    break;
+                }
+                    thread1.ReportProgress(i);
+                    Thread.Sleep(500);
+                    j = i;
+            }
+                e.Result = i;
+        }
+
+        private void thread1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
+            if (e.Cancelled){
+                MessageBox.Show("A operação foi cancelada!");
+            } else {
+                MessageBox.Show("terminou! " + e.Result);
+            }
+        }
+
+        private void btn_free_Click(object sender, EventArgs e) {
+            MessageBox.Show("Test");
         }
     }
 }
