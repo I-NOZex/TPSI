@@ -1,1 +1,9 @@
 C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\bin\Debug\multiThreadingWinForm.exe.config
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\bin\Debug\multiThreadingWinForm.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\bin\Debug\multiThreadingWinForm.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\obj\Debug\multiThreadingWinForm.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\obj\Debug\multiThreadingWinForm.Form1.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\obj\Debug\multiThreadingWinForm.Properties.Resources.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\obj\Debug\multiThreadingWinForm.csproj.GenerateResource.Cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\obj\Debug\multiThreadingWinForm.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\multiThreading\multiThreadingWinForm\obj\Debug\multiThreadingWinForm.pdb
