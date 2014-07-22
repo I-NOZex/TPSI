@@ -1,0 +1,5 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\ClsNotepad\obj\Debug\ClsNotepad.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\ClsNotepad\obj\Debug\ClsNotepad.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\ClsNotepad\obj\Debug\ClsNotepad.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\ClsNotepad\bin\Debug\ClsNotepad.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\ClsNotepad\bin\Debug\ClsNotepad.pdb

@@ -1,0 +1,11 @@
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\bin\Debug\MyNotepad.exe
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\bin\Debug\MyNotepad.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\bin\Debug\ClsNotepad.dll
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\bin\Debug\ClsNotepad.pdb
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.csprojResolveAssemblyReference.cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.MyNotepad.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.Cache
+C:\Users\I-NOZex\Documents\Visual Studio 2012\Projects\Especial05\MyNotepad\obj\Debug\MyNotepad.inputBox.resources

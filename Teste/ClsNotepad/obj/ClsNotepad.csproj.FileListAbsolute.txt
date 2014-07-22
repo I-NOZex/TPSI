@@ -1,0 +1,5 @@
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\ClsNotepad\bin\Debug\ClsNotepad.dll
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\ClsNotepad\bin\Debug\ClsNotepad.pdb
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\ClsNotepad\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\ClsNotepad\obj\Debug\ClsNotepad.dll
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\ClsNotepad\obj\Debug\ClsNotepad.pdb

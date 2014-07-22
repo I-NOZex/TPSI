@@ -1,0 +1,10 @@
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\bin\Debug\MyNotepad.pdb
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.Cache
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\obj\Debug\MyNotepad.MyNotepad.resources
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\bin\Debug\ClsNotepad.dll
+D:\Users\Isidro\Documents\02 - FORMAÇÃO\01-ESTGA\01-2011-2012\LP\TESTES\05RecursoEspecial\Projeto\MyNotepad\MyNotepad\bin\Debug\ClsNotepad.pdb

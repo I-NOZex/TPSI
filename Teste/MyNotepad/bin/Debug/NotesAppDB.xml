@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotesApp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AppFirstUsage>2014-07-21T22:36:16.153354+01:00</AppFirstUsage>
+  <UserName>abc</UserName>
+  <UserRegisterId>4939b203-08e1-4275-9511-b28f82e1e14d</UserRegisterId>
+  <Notes>
+    <Note>
+      <NoteText>musica</NoteText>
+      <EntryDate>2014-07-21T22:35:11.250279+01:00</EntryDate>
+    </Note>
+    <Note>
+      <NoteText>tv</NoteText>
+      <EntryDate>2014-07-21T22:35:18.354347+01:00</EntryDate>
+    </Note>
+    <Note>
+      <NoteText>123</NoteText>
+      <EntryDate>2014-07-21T22:36:16.153354+01:00</EntryDate>
+    </Note>
+  </Notes>
+</NotesApp>
